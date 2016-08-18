@@ -1,0 +1,31 @@
+
+<div class="chat-box">
+
+  <div class="chat-header">
+    <h2>Chat box</h2>
+  </div>
+
+  <div class="chat-body">
+    <div [collapse]="errorCollapse" class="error-collapse">
+      <div class="well-sm error-box">
+        {{messageError}}
+      </div>
+    </div>
+    <div *ngFor="let message of chatMessages" class="message">
+      <div class="message-box">
+        <span>[{{message.sent}}] </span>
+        <span>{{message.username}}: </span>
+        <span>{{message.message}}</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="chat-footer">
+    <div class="chat-input">
+      <form (submit)="submitMessage(text)">
+        <input #text type="text" class="form-control" placeholder="Type here to chat..." id="chat-send" maxlength="200" autocomplete="off">
+      </form>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,31 @@
+
+.login {
+    margin-top: 15px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #5e5e5e;
+}
+
+.login-header {
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid #5e5e5e;
+}
+
+.login-header > span {
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
+.login-body {
+    padding: 15px;
+}
+
+.login-body input {
+    margin-bottom: 5px;
+}

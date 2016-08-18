@@ -1,0 +1,17 @@
+
+<div class="container-fluid">
+  <div class="login">
+    <div class="login-header">
+      <h2>Login</h2>
+    </div>
+    <div class="login-body">
+      <form>
+        <input #username type="text" placeholder="Username" label="false" spellcheck="false" value=""
+               id="user_email"/>
+        <input #password placeholder="Password" label="false" autocomplete="off" type="password"
+               id="user_password"/>
+        <input (click)="onSubmit(username.value, password.value)" type="submit" name="commit" value="Log In"/>
+      </form>
+    </div>
+  </div>
+</div>

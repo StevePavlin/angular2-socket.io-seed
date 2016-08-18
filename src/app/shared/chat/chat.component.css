@@ -1,0 +1,45 @@
+
+.chat-box {
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid #1b6d85;
+  margin-top: 5px;
+}
+
+.chat-header {
+  height: 12%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.chat-body {
+  height: 65%;
+  border-bottom: 1px solid #1b6d85;
+  border-top: 1px solid #1b6d85;
+  padding: 5px 15px 0px 15px
+}
+
+.chat-footer {
+
+}
+
+.message-box {
+  border: 1px solid #5e5e5e;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: scroll;
+}
+
+.chat-input {
+  padding: 5px;
+}
+
+.error-box {
+
+}
+
+.error-collapse {
+  margin-top: -5px;
+  color: #880000;
+}
